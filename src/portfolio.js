@@ -28,8 +28,10 @@ const greeting = {
   resumeLink:
     "https://grand-leo-707.notion.site/Readwise-81de502fce7b4ad3b0824917301bb3f5", // Set to empty to hide the button
   displayGreeting: true,
-  knowledgeBaseLink: "https://publish.obsidian.md/alexgirardet/Welcome+to+my+Second+Brain",
-  libraryLink: "https://grand-leo-707.notion.site/Readwise-81de502fce7b4ad3b0824917301bb3f5",
+  knowledgeBaseLink:
+    "https://publish.obsidian.md/alexgirardet/Welcome+to+my+Second+Brain",
+  libraryLink:
+    "https://grand-leo-707.notion.site/Readwise-81de502fce7b4ad3b0824917301bb3f5",
   consultingLink: "https://dcypher-ai.co.uk/"
 };
 
@@ -49,7 +51,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Professionally Certified Data Engineer and ML practitioner with a strong foundation in business and finance.",
+  subTitle:
+    "Professionally Certified Data Engineer and ML practitioner with a strong foundation in business and finance.",
   skills: [
     emoji(
       "📊 Develop end to end ML systems, from data collection to model deployment"
@@ -129,7 +132,7 @@ const educationInfo = {
       desc: "Co-Founded a startup Digital and Design Agency. Helped create product strategy for Edinburgh based social nightlife app called Jigr. Part of the 4 person founding team.",
       descBullets: [
         "Edinburgh Award for Entrepreneurship and Innovation",
-        "Investment Society",
+        "Investment Society"
       ]
     },
     {
@@ -138,7 +141,11 @@ const educationInfo = {
       subHeader: "Bootcamp in Data Science",
       duration: "September 2020 - December 2020",
       desc: "9 Week intensive bootcamp in Data Science and Machine Learning on top of my full time studies.",
-      descBullets: ["Scikit-learn Pandas Numpy", "Keras Tensorflow", "SQL and NoSQL databases"]
+      descBullets: [
+        "Scikit-learn Pandas Numpy",
+        "Keras Tensorflow",
+        "SQL and NoSQL databases"
+      ]
     },
     {
       schoolName: "International School of Geneva",
@@ -186,7 +193,6 @@ const workExperiences = {
         "Real time data processing with Kafka",
         "Production System Monitoring and Alerting",
         "GenAI with Langchain and Vector Databases"
-
       ]
     },
     {
@@ -194,14 +200,14 @@ const workExperiences = {
       company: "Richemont",
       companylogo: require("./assets/images/richemont_logo.jpeg"),
       date: "November 2022 – June 2023",
-      desc: "Data Engineer in the data platform team. Data Modelling and ETL development with Python and SQL. Working on the FinOps team to optimize cloud costs.",
+      desc: "Data Engineer in the data platform team. Data Modelling and ETL development with Python and SQL. Working on the FinOps team to optimize cloud costs."
     },
     {
       role: "Quantitative Investment Analyst",
       company: "Nexus Equities",
       companylogo: require("./assets/images/nexus_equities.jpeg"),
       date: "July 2022 - November 2022",
-      desc: "Private Equity Start-up, working on the development of a ML image recognition model to identify potential investment opportunities across Industrial Outdoor Storage sites.",
+      desc: "Private Equity Start-up, working on the development of a ML image recognition model to identify potential investment opportunities across Industrial Outdoor Storage sites."
     }
   ]
 };
@@ -258,8 +264,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Google Cloud Professional Data Engineer",
-      subtitle:
-        "Certified Professional Data Engineer from Google Cloud",
+      subtitle: "Certified Professional Data Engineer from Google Cloud",
       image: require("./assets/images/data_engineer.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -271,8 +276,7 @@ const achievementSection = {
     },
     {
       title: "Google Cloud Cloud Associate",
-      subtitle:
-        "Certified Professional Data Engineer from Google Cloud",
+      subtitle: "Certified Professional Data Engineer from Google Cloud",
       image: require("./assets/images/associate_engineer.png"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
@@ -284,8 +288,7 @@ const achievementSection = {
     },
     {
       title: "Marathon Runner",
-      subtitle:
-        "Ran the Geneva Marathon in 2023",
+      subtitle: "Ran the Geneva Marathon in 2023",
       image: require("./assets/images/marathon_logo.png"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
